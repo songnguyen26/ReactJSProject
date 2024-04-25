@@ -1,0 +1,8 @@
+.StyleModule{
+    background-color: aqua;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+}

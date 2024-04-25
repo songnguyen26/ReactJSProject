@@ -1,0 +1,151 @@
+/*
+Custom Css
+*/
+.product{
+    margin: auto;
+}
+/* CSS for the dropdown category */
+.category {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Màu nền cho dropdown category */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+    z-index: 1; /* Đảm bảo dropdown category hiển thị trên các phần tử khác */
+}
+
+.category li {
+    display: block;
+    position: relative; /* Để subcategory hiển thị đúng vị trí */
+}
+
+.category li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333; /* Màu chữ cho các mục trong dropdown category */
+    text-decoration: none;
+    white-space: nowrap; /* Ngăn chặn nội dung bị xuống dòng */
+}
+
+.category li:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột qua các mục trong dropdown category */
+}
+
+/* CSS for showing dropdown category on hover */
+.nav-item:hover .category {
+    display: block;
+}
+
+/* CSS for the second level of the dropdown category */
+.category ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Để subcategory hiển thị bên phải của mục cha */
+    background-color: #fff; /* Màu nền cho subcategory */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+    z-index: 2; /* Đảm bảo subcategory hiển thị trên các phần tử khác */
+    width: auto; /* Tự động điều chỉnh độ rộng cho subcategory */
+    min-width: 150px; /* Độ rộng tối thiểu cho subcategory */
+}
+
+.category li:hover ul {
+    display: block;
+    margin-left: 0; /* Đảm bảo subcategory hiển thị đúng vị trí */
+}
+
+.category ul li {
+    display: block;
+}
+
+.category ul li a {
+    padding: 10px 20px;
+    color: #333; /* Màu chữ cho các mục trong subcategory */
+    text-decoration: none;
+    white-space: nowrap; /* Ngăn chặn nội dung bị xuống dòng */
+}
+
+.category ul li:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột qua các mục trong subcategory */
+}
+/*ADmin CSS for the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    display: block;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+/* CSS for showing dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/* CSS */
+.table img {
+    max-width: 100px; /* Đặt kích thước tối đa cho chiều rộng của hình ảnh */
+    max-height: 100px; /* Đặt kích thước tối đa cho chiều cao của hình ảnh */
+}
+/* CSS */
+.table {
+    border-collapse: collapse; /* Gộp các đường viền của ô thành một đường viền */
+    width: 100%; /* Đảm bảo bảng mở rộng đến toàn bộ phần nội dung của nó */
+}
+
+.table th, .table td {
+    border: 1px solid #ccc; /* Thiết lập đường viền cho cả thẻ th và thẻ td */
+    padding: 8px; /* Thêm khoảng trắng bên trong các ô */
+    text-align: left; /* Căn lề nội dung về bên trái */
+}
+
+.table th {
+    background-color: #f2f2f2; /* Màu nền cho các thẻ th */
+    font-weight: bold; /* In đậm nội dung của thẻ th */
+}
+
+.brand-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.brand-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.brand-dropdown-content li {
+    display: block;
+}
+
+.brand-dropdown-content li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.brand-dropdown-content li:hover {
+    background-color: #f0f0f0;
+}
+
+/* CSS for showing dropdown menu on hover */
+.brand-dropdown:hover .brand-dropdown-content {
+    display: block;
+}
