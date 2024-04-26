@@ -1,3 +1,6 @@
+Tên: Nguyễn Lục Song Nguyên
+Mã sinh viên: 2122110501
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
